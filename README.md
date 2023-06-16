@@ -9,3 +9,9 @@
 ## How to use
 
 Show random quote: HTTPS://URL_OF_YOUR_APP/quotes/random
+
+## Demo
+
+Demo is available here: https://api.vavok.net  
+
+Feel free to use API for your projects.
