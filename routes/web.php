@@ -15,4 +15,6 @@ use App\Http\Controllers\QuoteController;
 */
 
 Route::get('/', function () { return view('index'); });
-Route::get('quotes/random', [QuoteController::class, 'random']);
+Route::middleware(['cors'])->group(function () {
+    Route::get('quotes/random', [QuoteController::class, 'random']);
+});
